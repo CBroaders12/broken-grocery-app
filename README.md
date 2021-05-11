@@ -12,7 +12,9 @@ This is a broken grocery list application for students at Eleven Fifty Academy
 git clone https://github.com/CBroaders12/broken-grocery-app.git broken-grocery-app
 ```
 
-2. Fix it!
+2. Open the folder in your code editor
+
+3. Fix it!
 
 It should do the following once fixed.
 
