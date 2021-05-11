@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles.css" />
+		<title>Grocery List</title>
+	</head>
+	<body>
+		<main class="main">
+			<h2>Grocery List</h2>
+			<form class="grocery-form">
+				<fieldset id="item-fieldset">
+					<label for="item">Item</label>
+					<input type="text" id="item" required />
+				</fieldset>
+
+				<fieldset id="price-fieldset">
+					<label for="price">Price</label>
+					<input
+						type="number"
+						min="0.01"
+						step="0.01"
+						id="price"
+						required
+					/>
+				</fieldset>
+				<button type="submit">Add</button>
+			</form>
+
+			<section class="list-container">
+				<div class="grocery-list">
+					<div class="grocery-item">
+						<span>Item Name</span>
+						<span>Item Price ($)</span>
+					</div>
+				</div>
+				<div class="grocery-item" id="list-total">
+					<span class="item-name">Total</span>
+					<span id="total-price">0.00</span>
+				</div>
+			</section>
+		</main>
+
+		<script src="scripts.js"></script>
+	</body>
+</html>

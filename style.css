@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;1,400&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-family: Nunito, Arial, sans-serif;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background-color: green;
+}
+
+.grocery-form {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 500px;
+}
+
+.grocery-form fieldset {
+	flex-basis: 50%;
+	border: none;
+}
+
+.grocery-form button {
+	margin-top: 0.5rem;
+	padding: 0.25rem 0.5rem;
+}
+
+.list-container {
+	width: 500px;
+	height: 70%;
+	margin-top: 2rem;
+}
+
+.grocery-list {
+	width: 100%;
+	height: calc(100% - 2rem);
+	background-color: #1f1f1f;
+	overflow-y: auto;
+}
+
+.grocery-item {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	padding: 0.25rem 0;
+}
+
+.grocery-item:nth-child(even) {
+	background-color: #858585;
+}
+
+.grocery-item:nth-child(odd) {
+	background-color: #a8a8a8;
+}
+
+.grocery-item span {
+	display: inline-block;
+	padding-left: 0.5rem;
+	flex-basis: 40%;
+}
+
+.grocery-item button {
+	padding: 0.25rem 0.5rem;
+	margin-right: 1rem;
+}
