@@ -4,7 +4,7 @@ This is a broken grocery list application for students at Eleven Fifty Academy
 
 ---
 
-## Instructions
+### Instructions
 
 1. Clone this repository to a folder in your workspace.
 
@@ -24,3 +24,5 @@ It should do the following once fixed.
 -   The total of all the items should be displayed under the list
 -   The total should update as items are added
 -   The total should update when an item is removed
+
+![Working Screenshot](./screenshots/working-screenshot.png 'Working Screenshot')
